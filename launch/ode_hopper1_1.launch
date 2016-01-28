@@ -1,0 +1,9 @@
+<launch>
+  <node cwd="node" type="ode_hopper1_node" pkg="lfd_sim" name="ode_hopper1">
+    <param name="texture_path" value="$(find lfd_sim)/config/textures" />
+<!--     <param name="winx" value="280" /> -->
+<!--     <param name="winy" value="280" /> -->
+    <param name="winx" value="400" />
+    <param name="winy" value="400" />
+  </node>
+</launch>

@@ -1,0 +1,20 @@
+<package>
+  <description brief="lfd_sim">
+
+     lfd_sim
+
+  </description>
+  <author>Akihiko Y</author>
+  <license>???</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/lfd_sim</url>
+  <depend package="cmake_modules"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="std_srvs"/>
+  <depend package="geometry_msgs"/>
+
+</package>
+
+
