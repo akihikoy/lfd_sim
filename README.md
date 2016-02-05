@@ -13,11 +13,17 @@ Akihiko Yamaguchi, http://akihikoy.net/
 
 Requirements
 ==================
+Install following packages before building lfd_sim.
+
+Binaries are available (you can use **apt-get**):
 - ROS core system, rospy, roscpp, std_msgs, std_srvs, geometry_msgs, tf
-- ODE: we assume that the ODE is built in `$HOME/prg/libode/ode-latest/` from source.
-  - Use `./configure --enable-double-precision --disable-asserts` to setup.
-  - Build drawstuff as well.
 - Python: core, numpy
+
+Need to build from source (**not ROS**):
+- ODE (Open Dynamics Engine; a simulator)
+  - We assume that the ODE is built in `$HOME/prg/libode/ode-latest/` from source.
+  - Use `./configure --enable-double-precision --disable-asserts` to setup.
+  - Build `drawstuff` as well.
 
 
 Build
