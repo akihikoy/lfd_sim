@@ -21,9 +21,12 @@ Binaries are available (you can use **apt-get**):
 
 Need to build from source (**not ROS**):
 - ODE (Open Dynamics Engine; a simulator)
+  - http://ode.org/
   - We assume that the ODE is built in `$HOME/prg/libode/ode-latest/` from source.
+  - Rename ODE directory from `ode-0.1X/` to `ode-latest/` or make a symbolic link.
   - Use `./configure --enable-double-precision --disable-asserts` to setup.
-  - Build `drawstuff` as well.
+  - Build `drawstuff` as well (this is default).
+  - Test demo (e.g. `ode-latest/ode/demo/demo_buggy`) to check the installation.
 
 
 Build
